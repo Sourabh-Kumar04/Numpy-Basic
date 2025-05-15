@@ -1,28 +1,63 @@
-# 📊 Numpy-Basic: Comprehensive Guide to NumPy Fundamentals
+# NumPy-Basic
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Python](https://img.shields.io/badge/python-3.8%2B-brightgreen)](https://www.python.org/)
-[![NumPy](https://img.shields.io/badge/NumPy-1.24%2B-orange)](https://numpy.org/)
-[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626.svg)](https://jupyter.org/)
+<div align="center">
+  <img src="https://numpy.org/doc/stable/_static/numpylogo.svg" alt="NumPy Logo" width="400"/>
+  <h3>A Comprehensive Guide to NumPy Fundamentals</h3>
+  
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![Python](https://img.shields.io/badge/python-3.8%2B-brightgreen)](https://www.python.org/)
+  [![NumPy](https://img.shields.io/badge/NumPy-1.24%2B-orange)](https://numpy.org/)
+  [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626.svg)](https://jupyter.org/)
+  [![GitHub stars](https://img.shields.io/github/stars/Sourabh-Kumar04/Numpy-Basic?style=social)](https://github.com/Sourabh-Kumar04/Numpy-Basic/stargazers)
+  
+  <p>From zero to hero: A structured learning path for mastering NumPy</p>
+  
+  [Getting Started](#-getting-started) • 
+  [Learning Path](#-learning-path) • 
+  [Examples](#-code-examples) • 
+  [Contributing](#-how-to-contribute) • 
+  [License](#-license)
+</div>
 
-A structured, beginner-to-intermediate learning path for mastering NumPy, the foundation of scientific computing in Python.
+## 📋 Overview
 
-## 🎯 Who Is This For?
+This repository provides a **comprehensive, step-by-step guide** to mastering NumPy, the fundamental package for scientific computing in Python. Each phase builds systematically on previous knowledge, with practical examples and clear explanations.
 
-- 🚀 **Beginners** looking to build a solid foundation in NumPy
-- 👨‍💻 **Intermediate users** wanting to deepen their understanding of advanced features
+### 🎯 Who Is This For?
+
+- 🔰 **Beginners** looking to build a solid foundation in NumPy
+- 🚀 **Intermediate users** wanting to deepen their understanding of advanced features
 - 🎓 **Students** preparing for data science, machine learning, or AI coursework
 - 💼 **Professionals** transitioning to roles requiring numerical computation skills
 
-## 📚 What You'll Learn
+## ⚡ Quick Start
 
-| Phase | Topics | Key Concepts |
-|-------|--------|-------------|
-| **🧩 Phase 1** | NumPy Fundamentals | Arrays vs Lists, Creating Arrays, Data Types, Basic Operations |
-| **📍 Phase 2** | Data Manipulation | Indexing, Slicing, Sorting, Boolean Masks, Fancy Indexing |
-| **🔄 Phase 3** | Array Transformation | Reshaping, Stacking, Splitting, Broadcasting Rules |
-| **🧮 Phase 4** | Applications & Advanced | Vector/Matrix Operations, Trigonometric Functions, Statistics, File Operations |
-| **📈 Bonus** | Visualization | Matplotlib Integration, Customization, Themes |
+For those familiar with Python environments, get started immediately:
+
+```bash
+git clone https://github.com/Sourabh-Kumar04/Numpy-Basic.git
+cd Numpy-Basic
+python -m venv venv && source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+jupyter notebook
+```
+
+Begin with `Phase_1/01_phase_1.ipynb` and progress through each phase sequentially.
+
+## 📚 Learning Path
+
+<div align="center">
+  <img src="https://mermaid.ink/img/pako:eNp1kk1vgzAMhv9KlBOTOPQwCVpKdpgELPSwHvhQSIaqIYRkLpWG-O8LiQpDXQ6W_eT1h22QdpU0BJkJOQxlxWFn3d7YWukqVBqcg18MaIYDU2xVUsMjUCKZHqN51Ep48OG6Gw9Y4CjwZrIQPMgCi-VNRH8TqA33TgVaxN-ey1J0i_jD6Zx7zQlKTLd7U0qFnG3Ax-PxJigVKGuNhXvVusdHnTeLr4eLwOxnc4FXjCRPfUQPwqEQnJnXwXb6HQwU2ktrLKm_k-4WMBn-bZkWjqwOuq5CdYb9cQRXTukX9Xds0LlOlTSaBq4F5XfNZlGEF88o1WM5XEZ1ljGUEa71gMqZ27W7IWxAapDo9HWx6pA9ZymK3lSH9EIpx35ckadm0TblUwuXZEEFTb6wNxZlJN09XiZN?" alt="NumPy Learning Path" width="700"/>
+</div>
+
+### 🔍 Phase-by-Phase Progress
+
+| Phase | Status | Topics | Key Concepts |
+|-------|--------|--------|-------------|
+| **🧩 Phase 1** | ✅ Complete | NumPy Fundamentals | Arrays vs Lists, Creating Arrays, Data Types, Basic Operations |
+| **📍 Phase 2** | ✅ Complete | Data Manipulation | Indexing, Slicing, Sorting, Boolean Masks, Fancy Indexing |
+| **🔄 Phase 3** | ✅ Complete | Array Transformation | Reshaping, Stacking, Splitting, Broadcasting Rules |
+| **🧮 Phase 4** | 🚧 In Progress | Advanced Topics | Vector/Matrix Operations, Trigonometric Functions, Statistics, File Operations |
 
 ## 📁 Repository Structure
 
@@ -53,7 +88,7 @@ Numpy-Basic/
 
 - Python 3.8+ installed
 - Git (for cloning the repository)
-- Basic familiarity with Python
+- Basic familiarity with Python programming
 
 ### Step-by-Step Setup
 
@@ -94,9 +129,13 @@ uv pip install -e .
 jupyter notebook
 ```
 
-## 🔍 Phase-by-Phase Overview
+## 📖 What You'll Learn
 
 ### 🧩 Phase 1: NumPy Fundamentals
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/1671563/154354937-2d910d39-2a43-4b10-b35a-9fd7097bcb15.png" alt="NumPy Array Illustration" width="400"/>
+</div>
 
 - Why NumPy over standard Python lists?
   - Performance benchmarks showing speed differences
@@ -177,6 +216,16 @@ print(f"NumPy array processing time: {numpy_time:.5f} seconds")
 print(f"NumPy is {list_time/numpy_time:.1f}x faster!")
 ```
 
+<details>
+<summary>Output</summary>
+
+```
+Python list processing time: 0.12345 seconds
+NumPy array processing time: 0.00567 seconds
+NumPy is 21.8x faster!
+```
+</details>
+
 ### Fancy Indexing & Masking
 
 ```python
@@ -225,6 +274,10 @@ plt.grid(True, alpha=0.3)
 plt.tight_layout()
 plt.show()
 ```
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/1671563/157742658-5a197551-29a4-4f56-8e6c-ed0146fa9dc3.png" alt="Dark Mode Visualization Example" width="600"/>
+</div>
 
 ## 📈 Statistical Functions Reference
 
@@ -292,6 +345,14 @@ Broadcasting allows NumPy to perform operations on arrays of different shapes. T
 </ul>
 </details>
 
+## 📚 Additional Resources
+
+- [Official NumPy Documentation](https://numpy.org/doc/stable/)
+- [NumPy Cheat Sheet (PDF)](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf)
+- [From Python to NumPy](https://www.labri.fr/perso/nrougier/from-python-to-numpy/)
+- [NumPy Tutorials](https://numpy.org/numpy-tutorials/)
+- [100 NumPy Exercises](https://github.com/rougier/numpy-100)
+
 ## 🧠 How to Contribute
 
 Contributions to improve this repository are welcome! Here's how you can help:
@@ -317,9 +378,29 @@ git commit -m "✨ Added Phase_3: Array reshaping and broadcasting examples"
 | 🧹 | Code cleanup |
 | 🎨 | Style improvements |
 
+## 💬 Community & Support
+
+- **GitHub Discussions**: [Open a discussion](https://github.com/Sourabh-Kumar04/Numpy-Basic/discussions)
+- **Issue Tracker**: [Report bugs or request features](https://github.com/Sourabh-Kumar04/Numpy-Basic/issues)
+
 ## 📄 License
 
 This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
+
+## 📊 Citation
+
+If you use this repository in your research or educational materials, please cite it as:
+
+```bibtex
+@misc{kumar2025numpybasic,
+  author = {Kumar, Sourabh},
+  title = {NumPy-Basic: Comprehensive Guide to NumPy Fundamentals},
+  year = {2025},
+  publisher = {GitHub},
+  url = {https://github.com/Sourabh-Kumar04/Numpy-Basic},
+  howpublished = {\url{https://github.com/Sourabh-Kumar04/Numpy-Basic}},
+}
+```
 
 ## 🌐 Connect & Support
 
@@ -329,4 +410,12 @@ This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENS
 
 ---
 
-> "NumPy doesn't just compute numbers—it transforms how we think about data." 🧮
+<div align="center">
+  <p>If you find this repository helpful, please consider starring it! ⭐️</p>
+  <p>
+    <a href="https://www.buymeacoffee.com/YourUsername" target="_blank">
+      <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="40px">
+    </a>
+  </p>
+  <p>"NumPy doesn't just compute numbers—it transforms how we think about data." 🧮</p>
+</div>
